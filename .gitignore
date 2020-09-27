@@ -83,13 +83,16 @@ fabric.properties
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
-/_build
-/cover
-/deps
-/doc
-/.fetch
+
+#elixir
+
+*/_build
+*/cover
+*/deps
+*/doc
+*/.fetch
 erl_crash.dump
 *.ez
 *.beam
-/config/*.secret.exs
+*/config/*.secret.exs
 .elixir_ls/
