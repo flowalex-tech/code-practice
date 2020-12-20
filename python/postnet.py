@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 #
-#Goal: Print Address with POSTNET bar code. (POSTNET means Postal Numeric Encoding Technique.)
+# Goal: Print Address with POSTNET bar code. (POSTNET means Postal Numeric Encoding Technique.)
+# https://en.wikipedia.org/wiki/POSTNET
+
 import csv
 from collections import defaultdict
 columns = defaultdict(list)
