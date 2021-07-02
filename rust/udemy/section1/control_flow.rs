@@ -1,3 +1,4 @@
+fn main(){
 let a = 99;
 
 if a > 99 {
@@ -16,4 +17,5 @@ else if a > 99 {
     println!("Big Number");
 } else
     println!("Small Number");
+}
 }
